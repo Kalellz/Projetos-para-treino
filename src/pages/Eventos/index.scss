@@ -1,0 +1,50 @@
+.page-Eventos{
+    .inputs-eventos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+            padding-left: .7em;
+            width: 30em;
+            height: 2.5em;
+            border: 1px solid #DFDFDF;
+            box-shadow: 0px 0px 2px 0px #0000004D;
+            border-radius: .2em;
+            outline: none;
+            margin-top: .3em;
+        }
+        select{
+            padding-left: .7em;
+            width: 31em;
+            height: 2.8em;
+            border: 1px solid #DFDFDF;
+            box-shadow: 0px 0px 2px 0px #0000004D;
+            border-radius: .2em;
+            outline: none;
+            margin-top: 1em;
+            color: #646464;
+        }
+    }
+    .inputs-eventos-radios{
+        margin: 2em 2em 0em 2.2em;
+        .input-radio-2{
+            margin-left: 2em;
+        }
+    }
+    .inputs-eventos-checkbox{
+        margin: 1em 0em 0em 2.2em;
+        .input-checkbox-2{
+            margin-left: 2em;
+        }
+    }
+    button{
+        width: 5.8em;
+        height: 2.3em;   
+        background: #0084FF;
+        border: none;
+        border-radius: .2em;
+        color: #fff;
+        margin: 2em 2.8em 3em;
+        font-weight: 700;
+    }
+}
