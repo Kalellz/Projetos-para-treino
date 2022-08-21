@@ -1,5 +1,5 @@
 import './index.scss';
-import '../common/card.scss'
+import '../common/card-retangular.scss'
 export default function Eventos(props){
   function usuarioClicou(){
     alert('usuario clicou no botao');
@@ -10,7 +10,7 @@ export default function Eventos(props){
   return (
     <div className="page-Eventos">
         <div className={props.Alinhamento}>
-        <section className="css-Card">
+        <section className="Card-Retangular">
             <h1>Olá, seja bem-vindo!</h1>
             <div className='inputs-eventos'>
             <input type="text" placeholder='Digite aqui' onChange={usuarioAlterou}/>

@@ -1,0 +1,29 @@
+.page-Componentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Componente-titles-secoes{
+    margin-left: 2em;
+}
+.Componente-titles-secoes-3{
+    text-align: center;
+}
+.Componente-paragraph-secoes{
+    width: 18.7em;
+    margin: 1em;
+}
+.Componente-start{
+    display: flex;
+}
+.Componente-end{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Componente-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
